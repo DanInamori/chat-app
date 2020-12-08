@@ -1,7 +1,11 @@
 <div class="side-bar">
   <div class="side-header">
-    <a href="#" class="user-name">Dan</a>
-    <a href="#" class="create-room">チャットを制作する</a>
+    <div class="user-name">
+      <%= link_to current_user.name, edit_user_path(current_user) %>
+    </div>
+    <div class="create-room">
+      <a href="#">チャットを制作する</a>
+    </div>
   </div>
   <div class="side-main">
     <div class="chat-rooms">
