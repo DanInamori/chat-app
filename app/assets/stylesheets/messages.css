@@ -16,13 +16,13 @@
   justify-content: space-between;
 }
 
-.user-name {
+.user-name a{
   font-size: 16px;
   color: #fafafa;
   text-decoration: none;
 }
 
-.create-room {
+.create-room a{
   color: deepskyblue;
   font-size: 10px;
   text-decoration: none;
